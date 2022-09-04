@@ -1,29 +1,114 @@
 .bottom {
-    background-color: rgb(244,244,244);
-    min-width: 100%;
-    min-height: 200px;
-    // border: 2px solid red;
+  background-color: rgb(244, 244, 244);
+  min-width: 100%;
+  // min-height: 200px;
+  // border: 2px solid red;
 
-    .about-more-title {
-        margin-top: 0px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding: 20px;
-        font-size: 20px;
-        // border: 2px solid red;
+  .others {
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .otherTile {
+      width: 30px;
+      height: 30px;
+      // border: 2px solid gray;
+      // border-radius: 6px;
+      background-image: url("../images/insta.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
-    .about-more-info {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding: 5px 20px 15px 20px;
-        font-weight: lighter;
-        font-size: 16px;
-        letter-spacing: 0.75px;
+
+    .otherTile--two {
+      width: 30px;
+      height: 30px;
+      // border: 2px solid gray;
+      // border-radius: 6px;
+      background-image: url("../images/twitter.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
-    
-    .ceo-signature {
-        padding: 15px 20px 0px 20px;
-        img {
-            width: 15%;
-            height: 15%;
-        }
+    .otherTile--three {
+      width: 30px;
+      height: 30px;
+      // border: 2px solid gray;
+      // border-radius: 6px;
+      background-image: url("../images/li.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
+    .otherTile--four {
+      width: 30px;
+      height: 30px;
+      // border: 2px solid gray;
+      // border-radius: 6px;
+      background-image: url("../images/fb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+
+  .returnContain {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../images/return.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+
+    .return {
+      margin-top: -80px;
+      color: white;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .returnBtn {
+      width: 120px;
+      text-align: center;
+      margin: 0 auto;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 15px;
+      border-radius: 6px;
+      background-color: lightgray;
+      padding: 7px;
+    }
+    padding-bottom: 40px;
+  }
+
+  .about-more-title {
+    margin-top: 0px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding: 20px;
+    font-size: 20px;
+    // border: 2px solid red;
+  }
+  .about-more-info {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding: 5px 20px 15px 20px;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+  }
+
+  .ceo-signature {
+    padding: 15px 20px 0px 20px;
+    img {
+      width: 15%;
+      height: 15%;
+    }
+  }
 }
