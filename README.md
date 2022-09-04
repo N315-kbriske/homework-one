@@ -1,7 +1,7 @@
 # Homework 1
 
 Web4 Link:
-https://in-info-web4.informatics.iupui.edu/~kbriske/N423-homework-two
+https://in-info-web4.informatics.iupui.edu/~kbriske/N315-homework-one
 
 ## Purpose
 - This assignment will help you understand styling with the BEM CSS Model and give you another view of organizing your projects. You will be using SASS to complete this assignment.
