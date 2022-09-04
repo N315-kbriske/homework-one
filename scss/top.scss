@@ -1,0 +1,258 @@
+.top {
+  background-color: rgb(244, 244, 244);
+  min-width: 100%;
+  min-height: 500px;
+  //   border: 2px solid blue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  .item-header {
+    font-size: 45px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    //this one can be used if I want a "left-aligned look"
+    // padding: 20px 0px 20px 35px;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .shop-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 350px;
+    // border: 2px solid green;
+
+    background-image: url("../images/shop-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .item-preview-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 85px 0px 20px 0px;
+
+    .item {
+      width: 550px;
+      height: 350px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      .item--one {
+        background-image: url("../images/rtx-3080-gigabyte.png");
+        border: 2px solid gray;
+        border-radius: 6px;
+      }
+
+      .item--two {
+        background-image: url("../images/core-i7.png");
+        border: 2px solid gray;
+        border-radius: 6px;
+      }
+
+      .item--three {
+        background-image: url("../images/motherboard.png");
+        border: 2px solid gray;
+        border-radius: 6px;
+      }
+
+      .item--four {
+        background-image: url("../images/ram.png");
+        border: 2px solid gray;
+        border-radius: 6px;
+      }
+
+      .item--five {
+        background-image: url("../images/ssd.png");
+        border: 2px solid gray;
+        border-radius: 6px;
+      }
+
+      .item--six {
+        background-image: url("../images/case.png");
+        border: 2px solid gray;
+        border-radius: 6px;
+      }
+
+      .item-title {
+        padding-top: 10px;
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    }
+  }
+
+  .order-item-header {
+    font-size: 45px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    //this one can be used if I want a "left-aligned look"
+    // padding: 20px 0px 20px 35px;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .order-item-preview-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0px 20px 0px;
+
+    .order-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      // border: 2px solid orange;
+
+      .order-item-image {
+        max-width: 170px;
+        // height: 170px;
+        // border: 2px solid black;
+        margin-right: 45px;
+        margin-bottom: 90px;
+      }
+
+      .order-item-image-2 {
+        width: 170px;
+        height: 170px;
+        border: 2px solid black;
+        margin-right: 20px;
+        margin-bottom: 90px;
+
+        background-image: url("../images/rtx-3080-gigabyte.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .order-item-preview {
+        width: 700px;
+        height: 170px;
+        // border: 2px solid black;
+        margin-bottom: 90px;
+
+        .order-item-name {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        .order-date {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        .order-total {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        .order-description {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+      }
+    }
+  }
+
+  .about-hero-container {
+    position: relative;
+    text-align: center;
+    // border: 2px solid green;
+
+    .about-hero-image {
+      width: 100%;
+    }
+
+    .about-hero-header {
+      font-size: 150px;
+      color: white;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .about-hero-flavor {
+      font-size: 25px;
+      color: white;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .profile-head {
+    width: 70%;
+    height: 100px;
+    // margin: -350px auto 0px auto;
+    margin: 80px auto 0px auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    // border: 1.5px solid gray;
+    // border-radius: 10px;
+    border-bottom: 2px solid gray;
+
+    img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+
+    .name {
+      // padding-left: 50px;
+      font-size: 30px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      padding-bottom: 50px;
+    }
+  }
+  .profile-row-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 700px;
+    height: 500px;
+    // border: 2px solid red;
+    margin: 0 auto;
+
+    .profile-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 500px;
+      height: 50px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .option-name {
+        padding-left: 10px;
+      }
+    }
+  }
+}

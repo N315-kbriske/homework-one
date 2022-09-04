@@ -1,0 +1,29 @@
+.bottom {
+    background-color: rgb(244,244,244);
+    min-width: 100%;
+    min-height: 200px;
+    // border: 2px solid red;
+
+    .about-more-title {
+        margin-top: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 20px;
+        font-size: 20px;
+        // border: 2px solid red;
+    }
+    .about-more-info {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 5px 20px 15px 20px;
+        font-weight: lighter;
+        font-size: 16px;
+        letter-spacing: 0.75px;
+    }
+    
+    .ceo-signature {
+        padding: 15px 20px 0px 20px;
+        img {
+            width: 15%;
+            height: 15%;
+        }
+    }
+}
